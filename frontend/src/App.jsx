@@ -307,7 +307,7 @@ function Portfolio() {
           <div className="footer-bottom">
             <span>© {new Date().getFullYear()} {profile.name}</span>
             <span>{profile.footerNote}</span>
-            <a href="/admin">Administration ↗</a>
+            {import.meta.env.DEV && <a href="/admin">Administration ↗</a>}
           </div>
         </div>
       </footer>
