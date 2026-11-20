@@ -1,0 +1,54 @@
+{
+  "profile": {
+    "id": "main",
+    "name": "Alex Martin",
+    "role": "Designer & développeur créatif",
+    "location": "Paris, France",
+    "email": "bonjour@example.com",
+    "phone": "",
+    "githubUrl": "",
+    "cvUrl": "",
+    "cvFileName": "",
+    "bio": "Je conçois des expériences numériques claires, utiles et mémorables. J'aime transformer les idées complexes en produits simples et soignés.",
+    "avatarUrl": "",
+    "avatarPublicId": "",
+    "contactMessage": "Disponible pour échanger sur vos projets et opportunités.",
+    "footerEyebrow": "UN PROJET EN TÊTE ?",
+    "footerTitle": "Parlons-en",
+    "footerText": "Une question ou une opportunité ? Écrivez-moi, je vous répondrai avec plaisir.",
+    "footerNote": "Conçu avec intention.",
+    "accentColor": "#48a9e5",
+    "backgroundColor": "#edf7fd"
+  },
+  "skills": [
+    { "id": "skill-1", "name": "Direction artistique", "category": "Design", "level": 5, "imageUrl": "", "imagePublicId": "", "position": 0 },
+    { "id": "skill-2", "name": "Figma", "category": "Design", "level": 4, "imageUrl": "", "imagePublicId": "", "position": 1 },
+    { "id": "skill-3", "name": "React", "category": "Développement", "level": 4, "imageUrl": "", "imagePublicId": "", "position": 2 },
+    { "id": "skill-4", "name": "JavaScript", "category": "Développement", "level": 4, "imageUrl": "", "imagePublicId": "", "position": 3 }
+  ],
+  "experiences": [],
+  "education": [],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "Identité — Atelier Nord",
+      "description": "Une identité visuelle chaleureuse et un site vitrine pour un studio de céramique indépendant.",
+      "imageUrl": "",
+      "imagePublicId": "",
+      "link": "",
+      "tags": ["Identité", "Web design"],
+      "position": 0
+    },
+    {
+      "id": "project-2",
+      "title": "Application — Tempo",
+      "description": "Une expérience mobile pensée pour aider les équipes créatives à mieux rythmer leurs projets.",
+      "imageUrl": "",
+      "imagePublicId": "",
+      "link": "",
+      "tags": ["Produit", "UI/UX"],
+      "position": 1
+    }
+  ],
+  "hobbies": []
+}

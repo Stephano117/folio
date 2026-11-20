@@ -2,23 +2,28 @@
   "name": "folio",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "next": "16.4.6",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.4.6",
-    "typescript": "^5"
+    "dev": "node scripts/dev.js",
+    "frontend:dev": "npm run dev --workspace frontend",
+    "postinstall": "prisma generate --config backend/prisma.config.ts",
+    "build": "npm run build --workspace frontend",
+    "frontend:deploy-build": "npm run db:generate && npm run db:export && npm run build --workspace frontend",
+    "backend:start": "npm run start --workspace backend",
+    "backend:dev": "npm run dev --workspace backend",
+    "db:generate": "prisma generate --config backend/prisma.config.ts",
+    "db:migrate": "prisma migrate deploy --config backend/prisma.config.ts",
+    "db:setup": "npm run db:generate && npm run db:migrate && npm run db:seed",
+    "db:seed": "tsx backend/scripts/seed.js",
+    "db:export": "tsx backend/scripts/export-portfolio.js",
+    "lint": "node --check backend/index.js && node --check backend/local-store.js && node --check backend/scripts/export-portfolio.js && node --check backend/scripts/seed.js && node --check scripts/dev.js && node --check frontend/vite.config.js",
+    "db:studio": "prisma studio --config backend/prisma.config.ts"
   }
 }

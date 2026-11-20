@@ -1,0 +1,108 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Profile {
+  id              String   @id @default("main")
+  name            String   @default("Votre nom")
+  role            String   @default("Votre métier")
+  location        String   @default("")
+  email           String   @default("")
+  phone           String   @default("")
+  githubUrl       String   @default("")
+  bio             String   @default("")
+  cvUrl           String   @default("")
+  cvFileName      String   @default("")
+  avatarUrl       String   @default("")
+  avatarPublicId  String   @default("")
+  contactMessage  String   @default("")
+  footerEyebrow   String   @default("UN PROJET EN TÊTE ?")
+  footerTitle     String   @default("Parlons-en")
+  footerText      String   @default("")
+  footerNote      String   @default("Conçu avec intention.")
+  accentColor     String   @default("#48a9e5")
+  backgroundColor String   @default("#edf7fd")
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Skill {
+  id            String   @id @default(cuid())
+  name          String
+  category      String   @default("Général")
+  level         Int      @default(3)
+  imageUrl      String   @default("")
+  imagePublicId String   @default("")
+  position      Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([position])
+}
+
+model Experience {
+  id            String   @id @default(cuid())
+  role          String
+  company       String
+  location      String   @default("")
+  startDate     String
+  endDate       String   @default("")
+  description   String   @default("")
+  imageUrl      String   @default("")
+  imagePublicId String   @default("")
+  position      Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([position])
+}
+
+model Education {
+  id            String   @id @default(cuid())
+  degree        String
+  institution   String
+  location      String   @default("")
+  startDate     String
+  endDate       String   @default("")
+  description   String   @default("")
+  imageUrl      String   @default("")
+  imagePublicId String   @default("")
+  position      Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([position])
+}
+
+model Project {
+  id            String   @id @default(cuid())
+  title         String
+  description   String
+  imageUrl      String   @default("")
+  imagePublicId String   @default("")
+  link          String   @default("")
+  tags          String[] @default([])
+  position      Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([position])
+}
+
+model Hobby {
+  id            String   @id @default(cuid())
+  title         String
+  description   String   @default("")
+  imageUrl      String   @default("")
+  imagePublicId String   @default("")
+  position      Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([position])
+}

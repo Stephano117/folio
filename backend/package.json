@@ -1,0 +1,25 @@
+{
+  "name": "@folio/backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx index.js",
+    "dev": "node --import tsx index.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.0",
+    "@prisma/adapter-neon": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.10",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "jose": "^6.2.17",
+    "prisma": "^7.10.1",
+    "tsx": "^4.19.3",
+    "zod": "^4.6.7"
+  }
+}
