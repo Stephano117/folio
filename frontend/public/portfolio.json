@@ -1,181 +1,186 @@
 {
   "profile": {
-    "phone": "0341078173",
-    "githubUrl": "https://github.com/Stephano117",
-    "cvUrl": "/uploads/3e7d7105-9ef6-4f3b-8bf7-b8caf29828e9.pdf",
-    "cvFileName": "CV fullstack 3.0.pdf",
-    "contactMessage": "Disponible pour échanger sur vos projets et opportunités.",
-    "footerEyebrow": "Une opportunité ?",
-    "footerTitle": "Parlons-en",
-    "footerText": "Une question ? Écrivez-moi, je vous répondrai avec plaisir.",
-    "footerNote": "Bien a vous.",
     "id": "main",
     "name": "Stephano Sido",
     "role": "Admin sys & développeur",
     "location": "Fianarantsoa",
     "email": "randrianantenainastephano1611@gmail.com",
+    "phone": "0341078173",
+    "githubUrl": "https://github.com/Stephano117",
     "bio": "Devellopeur et admin system confirmé. Je conçois et réalise des solutions numériques performantes et utiles. Passionné par ce que je fait, je m’engage à allier rigueur technique et apprentissage continu. Ma philosophie : aimer ce que l’on fait pour toujours viser la satisfaction",
+    "cvUrl": "/uploads/3e7d7105-9ef6-4f3b-8bf7-b8caf29828e9.pdf",
+    "cvFileName": "CV fullstack 3.0.pdf",
     "avatarUrl": "/uploads/4a1b1409-46f9-49f1-b183-2ec97f16081d.jpg",
     "avatarPublicId": "local:4a1b1409-46f9-49f1-b183-2ec97f16081d.jpg",
+    "contactMessage": "Disponible pour échanger sur vos projets et opportunités.",
+    "footerEyebrow": "Une opportunité ?",
+    "footerTitle": "Parlons-en",
+    "footerText": "Une question ? Écrivez-moi, je vous répondrai avec plaisir.",
+    "footerNote": "Bien a vous.",
     "accentColor": "#48a9e5",
     "backgroundColor": "#edf7fd",
+    "createdAt": "2026-11-20T09:06:15.890Z",
     "updatedAt": "2026-11-17T17:10:29.291Z"
   },
   "skills": [
     {
-      "imageUrl": "/uploads/281cbfb5-a7c2-42f3-bb96-e8649c7da026.jpg",
-      "imagePublicId": "local:281cbfb5-a7c2-42f3-bb96-e8649c7da026.jpg",
-      "id": "skill-1",
-      "name": "PHP",
-      "category": "Développement",
-      "level": 4,
-      "position": 5,
-      "updatedAt": "2026-11-15T15:22:56.581Z"
-    },
-    {
-      "imageUrl": "/uploads/bf16ae69-2513-4c32-8c36-912e13fbd56c.jpg",
-      "imagePublicId": "local:bf16ae69-2513-4c32-8c36-912e13fbd56c.jpg",
-      "id": "skill-2",
-      "name": "python",
-      "category": "Développement",
-      "level": 4,
-      "position": 4,
-      "updatedAt": "2026-11-15T15:22:56.581Z"
-    },
-    {
-      "imageUrl": "/uploads/95599675-253c-4774-9708-1563e990cf8b.jpg",
-      "imagePublicId": "local:95599675-253c-4774-9708-1563e990cf8b.jpg",
-      "id": "skill-3",
-      "name": "React",
-      "category": "Développement",
-      "level": 4,
-      "position": 2,
-      "updatedAt": "2026-11-15T15:22:56.581Z"
-    },
-    {
-      "imageUrl": "/uploads/06544656-eb32-4f85-be61-4aa3fa852e51.jpg",
-      "imagePublicId": "local:06544656-eb32-4f85-be61-4aa3fa852e51.jpg",
-      "id": "skill-4",
-      "name": "Node JS",
-      "category": "Développement",
-      "level": 4,
-      "position": 3,
-      "updatedAt": "2026-11-15T15:22:56.581Z"
-    },
-    {
-      "imageUrl": "/uploads/f61b5f31-903c-4f4d-81e8-881fdf2df97f.jpg",
-      "imagePublicId": "local:f61b5f31-903c-4f4d-81e8-881fdf2df97f.jpg",
-      "id": "cb87ce29-2e35-466b-af46-ec71fdbd5d3b",
-      "name": "Typescript",
-      "category": "Développement",
-      "level": 4,
-      "position": 1,
-      "createdAt": "2026-11-14T15:54:06.294Z",
-      "updatedAt": "2026-11-15T15:22:56.581Z"
-    },
-    {
-      "imageUrl": "/uploads/041c53b9-02b1-455f-8c8c-1dc2cbb2e8b1.jpg",
-      "imagePublicId": "local:041c53b9-02b1-455f-8c8c-1dc2cbb2e8b1.jpg",
-      "id": "9182e5a0-b57c-4035-95ff-017232c717cd",
-      "name": "Linux",
-      "category": "resaux & sys",
-      "level": 4,
-      "position": 11,
-      "createdAt": "2026-11-15T09:43:50.324Z",
-      "updatedAt": "2026-11-15T15:22:56.581Z"
-    },
-    {
-      "imageUrl": "/uploads/0670fe6e-3ff5-4e02-8ae6-b4ab842acf3f.jpg",
-      "imagePublicId": "local:0670fe6e-3ff5-4e02-8ae6-b4ab842acf3f.jpg",
-      "id": "56744349-251b-4e9c-b64a-be830064c3d0",
+      "id": "cmwor8fwz0006bgu2wpy3bfza",
       "name": "Javascript",
       "category": "Développement",
       "level": 4,
+      "imageUrl": "/uploads/0670fe6e-3ff5-4e02-8ae6-b4ab842acf3f.jpg",
+      "imagePublicId": "local:0670fe6e-3ff5-4e02-8ae6-b4ab842acf3f.jpg",
       "position": 0,
       "createdAt": "2026-11-15T09:44:56.230Z",
       "updatedAt": "2026-11-15T15:22:56.581Z"
     },
     {
-      "imageUrl": "/uploads/bd4713b9-37ee-4291-aa27-090c1b8a7c23.jpg",
-      "imagePublicId": "local:bd4713b9-37ee-4291-aa27-090c1b8a7c23.jpg",
-      "id": "7286a304-df96-4ffc-b23a-27d5cb7ee4c7",
-      "name": "MySQL",
-      "category": "SGBD",
+      "id": "cmwor8fwz0004bgu2p3tx2c8h",
+      "name": "Typescript",
+      "category": "Développement",
       "level": 4,
-      "position": 8,
-      "createdAt": "2026-11-15T09:52:35.936Z",
+      "imageUrl": "/uploads/f61b5f31-903c-4f4d-81e8-881fdf2df97f.jpg",
+      "imagePublicId": "local:f61b5f31-903c-4f4d-81e8-881fdf2df97f.jpg",
+      "position": 1,
+      "createdAt": "2026-11-14T15:54:06.294Z",
       "updatedAt": "2026-11-15T15:22:56.581Z"
     },
     {
-      "imageUrl": "/uploads/554653ab-d7e6-41dc-911c-a45428fa80cd.jpg",
-      "imagePublicId": "local:554653ab-d7e6-41dc-911c-a45428fa80cd.jpg",
-      "id": "b1bce697-0d58-4441-aae3-a3141e26de79",
-      "name": "PostgreSQL",
-      "category": "SGBD",
+      "id": "cmwor8fwz0002bgu2gt0awsi3",
+      "name": "React",
+      "category": "Développement",
       "level": 4,
-      "position": 9,
-      "createdAt": "2026-11-15T09:53:09.867Z",
+      "imageUrl": "/uploads/95599675-253c-4774-9708-1563e990cf8b.jpg",
+      "imagePublicId": "local:95599675-253c-4774-9708-1563e990cf8b.jpg",
+      "position": 2,
+      "createdAt": "2026-11-20T09:06:16.595Z",
       "updatedAt": "2026-11-15T15:22:56.581Z"
     },
     {
-      "imageUrl": "/uploads/35101d26-d02d-4dd4-b1c7-3ff163903702.jpg",
-      "imagePublicId": "local:35101d26-d02d-4dd4-b1c7-3ff163903702.jpg",
-      "id": "1b5590c5-5603-45cc-ae64-0f482143f832",
-      "name": "Admin Windows",
-      "category": "resaux & sys",
+      "id": "cmwor8fwz0003bgu2odo0g3wj",
+      "name": "Node JS",
+      "category": "Développement",
       "level": 4,
-      "position": 7,
-      "createdAt": "2026-11-15T09:54:53.892Z",
+      "imageUrl": "/uploads/06544656-eb32-4f85-be61-4aa3fa852e51.jpg",
+      "imagePublicId": "local:06544656-eb32-4f85-be61-4aa3fa852e51.jpg",
+      "position": 3,
+      "createdAt": "2026-11-20T09:06:16.595Z",
       "updatedAt": "2026-11-15T15:22:56.581Z"
     },
     {
-      "imageUrl": "/uploads/5ab3c852-e73b-477b-a8d6-7364dfaa28c7.jpg",
-      "imagePublicId": "local:5ab3c852-e73b-477b-a8d6-7364dfaa28c7.jpg",
-      "id": "87c11bca-2db9-4c1e-9af1-c44017739c24",
-      "name": "Docker",
-      "category": "Conteneur",
+      "id": "cmwor8fwz0001bgu2i0v824ku",
+      "name": "python",
+      "category": "Développement",
       "level": 4,
-      "position": 12,
-      "createdAt": "2026-11-15T09:59:49.631Z",
+      "imageUrl": "/uploads/bf16ae69-2513-4c32-8c36-912e13fbd56c.jpg",
+      "imagePublicId": "local:bf16ae69-2513-4c32-8c36-912e13fbd56c.jpg",
+      "position": 4,
+      "createdAt": "2026-11-20T09:06:16.595Z",
       "updatedAt": "2026-11-15T15:22:56.581Z"
     },
     {
-      "imageUrl": "/uploads/124ca5d6-a261-474d-99bc-6dd35e055879.jpg",
-      "imagePublicId": "local:124ca5d6-a261-474d-99bc-6dd35e055879.jpg",
-      "id": "26293910-72df-4c70-a86d-ca14f8692b42",
-      "name": "Git",
-      "category": "versionning",
+      "id": "cmwor8fwz0000bgu2rpllw6ur",
+      "name": "PHP",
+      "category": "Développement",
       "level": 4,
-      "position": 13,
-      "createdAt": "2026-11-15T10:01:48.441Z",
+      "imageUrl": "/uploads/281cbfb5-a7c2-42f3-bb96-e8649c7da026.jpg",
+      "imagePublicId": "local:281cbfb5-a7c2-42f3-bb96-e8649c7da026.jpg",
+      "position": 5,
+      "createdAt": "2026-11-20T09:06:16.595Z",
       "updatedAt": "2026-11-15T15:22:56.581Z"
     },
     {
-      "imageUrl": "/uploads/4110fb48-88a9-480f-9d2a-76c63545b6b4.jpg",
-      "imagePublicId": "local:4110fb48-88a9-480f-9d2a-76c63545b6b4.jpg",
-      "id": "c8dc4173-a2d5-4958-8b6a-e98c11762b26",
+      "id": "cmwor8fwz000cbgu2l2ayk0sr",
       "name": "Laravel",
       "category": "Développement",
       "level": 3,
+      "imageUrl": "/uploads/4110fb48-88a9-480f-9d2a-76c63545b6b4.jpg",
+      "imagePublicId": "local:4110fb48-88a9-480f-9d2a-76c63545b6b4.jpg",
       "position": 6,
       "createdAt": "2026-11-15T13:47:37.722Z",
       "updatedAt": "2026-11-15T15:22:56.581Z"
     },
     {
-      "imageUrl": "/uploads/95f91e9d-ddf7-4518-90ae-51f2a205a607.jpg",
-      "imagePublicId": "local:95f91e9d-ddf7-4518-90ae-51f2a205a607.jpg",
-      "id": "c1194411-ea98-433b-93df-1c11407e2cbe",
+      "id": "cmwor8fwz0009bgu22ly5cjt5",
+      "name": "Admin Windows",
+      "category": "resaux & sys",
+      "level": 4,
+      "imageUrl": "/uploads/35101d26-d02d-4dd4-b1c7-3ff163903702.jpg",
+      "imagePublicId": "local:35101d26-d02d-4dd4-b1c7-3ff163903702.jpg",
+      "position": 7,
+      "createdAt": "2026-11-15T09:54:53.892Z",
+      "updatedAt": "2026-11-15T15:22:56.581Z"
+    },
+    {
+      "id": "cmwor8fwz0007bgu2e598qscg",
+      "name": "MySQL",
+      "category": "SGBD",
+      "level": 4,
+      "imageUrl": "/uploads/bd4713b9-37ee-4291-aa27-090c1b8a7c23.jpg",
+      "imagePublicId": "local:bd4713b9-37ee-4291-aa27-090c1b8a7c23.jpg",
+      "position": 8,
+      "createdAt": "2026-11-15T09:52:35.936Z",
+      "updatedAt": "2026-11-15T15:22:56.581Z"
+    },
+    {
+      "id": "cmwor8fwz0008bgu2fo80lvif",
+      "name": "PostgreSQL",
+      "category": "SGBD",
+      "level": 4,
+      "imageUrl": "/uploads/554653ab-d7e6-41dc-911c-a45428fa80cd.jpg",
+      "imagePublicId": "local:554653ab-d7e6-41dc-911c-a45428fa80cd.jpg",
+      "position": 9,
+      "createdAt": "2026-11-15T09:53:09.867Z",
+      "updatedAt": "2026-11-15T15:22:56.581Z"
+    },
+    {
+      "id": "cmwor8fwz000dbgu2pa0s1t32",
       "name": "MongoBD",
       "category": "SGBD",
       "level": 3,
+      "imageUrl": "/uploads/95f91e9d-ddf7-4518-90ae-51f2a205a607.jpg",
+      "imagePublicId": "local:95f91e9d-ddf7-4518-90ae-51f2a205a607.jpg",
       "position": 10,
       "createdAt": "2026-11-15T15:22:46.241Z",
+      "updatedAt": "2026-11-15T15:22:56.581Z"
+    },
+    {
+      "id": "cmwor8fwz0005bgu25qlg2jtq",
+      "name": "Linux",
+      "category": "resaux & sys",
+      "level": 4,
+      "imageUrl": "/uploads/041c53b9-02b1-455f-8c8c-1dc2cbb2e8b1.jpg",
+      "imagePublicId": "local:041c53b9-02b1-455f-8c8c-1dc2cbb2e8b1.jpg",
+      "position": 11,
+      "createdAt": "2026-11-15T09:43:50.324Z",
+      "updatedAt": "2026-11-15T15:22:56.581Z"
+    },
+    {
+      "id": "cmwor8fwz000abgu2t1ds0yck",
+      "name": "Docker",
+      "category": "Conteneur",
+      "level": 4,
+      "imageUrl": "/uploads/5ab3c852-e73b-477b-a8d6-7364dfaa28c7.jpg",
+      "imagePublicId": "local:5ab3c852-e73b-477b-a8d6-7364dfaa28c7.jpg",
+      "position": 12,
+      "createdAt": "2026-11-15T09:59:49.631Z",
+      "updatedAt": "2026-11-15T15:22:56.581Z"
+    },
+    {
+      "id": "cmwor8fwz000bbgu2lixusosr",
+      "name": "Git",
+      "category": "versionning",
+      "level": 4,
+      "imageUrl": "/uploads/124ca5d6-a261-474d-99bc-6dd35e055879.jpg",
+      "imagePublicId": "local:124ca5d6-a261-474d-99bc-6dd35e055879.jpg",
+      "position": 13,
+      "createdAt": "2026-11-15T10:01:48.441Z",
       "updatedAt": "2026-11-15T15:22:56.581Z"
     }
   ],
   "projects": [
     {
-      "id": "project-1",
+      "id": "cmwor8gf2000ebgu2ljhdipkj",
       "title": "RGM Music",
       "description": "Un site pour un Studio de music qui souhaite exposer ses music",
       "imageUrl": "/uploads/8452d42d-996f-48f3-973d-7cc786ae9288.png",
@@ -185,10 +190,11 @@
         "Développement web"
       ],
       "position": 0,
+      "createdAt": "2026-11-20T09:06:17.246Z",
       "updatedAt": "2026-11-15T15:00:36.870Z"
     },
     {
-      "id": "project-2",
+      "id": "cmwor8gf2000fbgu2n0o2ex3w",
       "title": "Digitalisation des documens Administratifs (Region Haute matsiatra)",
       "description": "Une application de gestion documentaire permettant de numériser, centraliser et standardiser les documents entrants et sortants, tout en facilitant leur classement, leur suivi et leur archivage.",
       "imageUrl": "/uploads/f08d2a00-57df-4911-bac2-e0abea618d47.png",
@@ -198,12 +204,13 @@
         "Développement web"
       ],
       "position": 1,
+      "createdAt": "2026-11-20T09:06:17.246Z",
       "updatedAt": "2026-11-15T09:34:56.306Z"
     }
   ],
   "experiences": [
     {
-      "id": "d1a98ae7-b6da-4862-93d1-02121e80f343",
+      "id": "cmwor8gwn000gbgu2voha57um",
       "role": "dev Freelane",
       "company": "RGM Tanambao",
       "location": "Fianarantsoa",
@@ -217,7 +224,7 @@
       "updatedAt": "2026-11-15T14:21:25.987Z"
     },
     {
-      "id": "9ac2085d-e49d-4970-8bde-6f9601202c9b",
+      "id": "cmwor8gwn000hbgu2u1uwhsc9",
       "role": "Responsable du Systeme d'information",
       "company": "Region Haute Matsiatra",
       "location": "Fianarantsoa",
@@ -231,41 +238,9 @@
       "updatedAt": "2026-11-15T14:21:08.780Z"
     }
   ],
-  "hobbies": [
-    {
-      "id": "7dbd6527-32e0-46e5-b905-84a3cd2923df",
-      "title": "Boxe",
-      "description": "combatant pro adepte des arts martiaux",
-      "imageUrl": "/uploads/503b9688-d9c1-4b92-bd7e-ccefeef05382.png",
-      "imagePublicId": "local:503b9688-d9c1-4b92-bd7e-ccefeef05382.png",
-      "position": 1,
-      "createdAt": "2026-11-14T17:54:10.520Z",
-      "updatedAt": "2026-11-15T10:53:04.839Z"
-    },
-    {
-      "id": "643791d6-378b-4274-bdbb-a3b00db35874",
-      "title": "Jeux video",
-      "description": "",
-      "imageUrl": "/uploads/aa229b12-b44d-45e9-95bb-6f3b15be5f80.jpg",
-      "imagePublicId": "local:aa229b12-b44d-45e9-95bb-6f3b15be5f80.jpg",
-      "position": 2,
-      "createdAt": "2026-11-15T10:43:27.630Z",
-      "updatedAt": "2026-11-15T11:17:45.258Z"
-    },
-    {
-      "id": "a9066d01-bdca-4896-9d7a-4da193dbb1aa",
-      "title": "Livre",
-      "description": "Se déconnecter du monde à travers la lecture.",
-      "imageUrl": "/uploads/6dc91b65-2504-48f7-aabb-881431d1d536.jpg",
-      "imagePublicId": "local:6dc91b65-2504-48f7-aabb-881431d1d536.jpg",
-      "position": 3,
-      "createdAt": "2026-11-15T12:17:18.253Z",
-      "updatedAt": "2026-11-15T12:17:18.253Z"
-    }
-  ],
   "education": [
     {
-      "id": "553e9bf1-889b-420a-a691-6b28c1be3a54",
+      "id": "cmwor8heg000ibgu2q6021czo",
       "degree": "Master en Informatique Générale",
       "institution": "ENI Fianatrantsoa",
       "location": "Tanamabo Fianarantsoa",
@@ -279,7 +254,7 @@
       "updatedAt": "2026-11-15T13:18:49.330Z"
     },
     {
-      "id": "a98187de-10de-434c-a048-f6480836cf8d",
+      "id": "cmwor8heg000jbgu28ns11pr0",
       "degree": "Initiation au DevOps",
       "institution": "Orange Digital Center Fianarantsoa",
       "location": "Parc e-@tiala, Université de Fianarantsoa Andrainjato",
@@ -293,7 +268,7 @@
       "updatedAt": "2026-11-15T14:57:53.249Z"
     },
     {
-      "id": "5d367c20-3f04-4375-8663-e58e21b227b9",
+      "id": "cmwor8heg000kbgu2s0km8sqc",
       "degree": "Conception et développement Web",
       "institution": "Spray Info",
       "location": "Ampitakely Fianarantsoa",
@@ -305,6 +280,38 @@
       "position": 2,
       "createdAt": "2026-11-15T13:18:38.533Z",
       "updatedAt": "2026-11-15T14:57:36.303Z"
+    }
+  ],
+  "hobbies": [
+    {
+      "id": "cmwor8hw7000lbgu2iimhkla2",
+      "title": "Boxe",
+      "description": "combatant pro adepte des arts martiaux",
+      "imageUrl": "/uploads/503b9688-d9c1-4b92-bd7e-ccefeef05382.png",
+      "imagePublicId": "local:503b9688-d9c1-4b92-bd7e-ccefeef05382.png",
+      "position": 1,
+      "createdAt": "2026-11-14T17:54:10.520Z",
+      "updatedAt": "2026-11-15T10:53:04.839Z"
+    },
+    {
+      "id": "cmwor8hw7000mbgu2hkpqx0iw",
+      "title": "Jeux video",
+      "description": "",
+      "imageUrl": "/uploads/aa229b12-b44d-45e9-95bb-6f3b15be5f80.jpg",
+      "imagePublicId": "local:aa229b12-b44d-45e9-95bb-6f3b15be5f80.jpg",
+      "position": 2,
+      "createdAt": "2026-11-15T10:43:27.630Z",
+      "updatedAt": "2026-11-15T11:17:45.258Z"
+    },
+    {
+      "id": "cmwor8hw7000nbgu2bhbnirj4",
+      "title": "Livre",
+      "description": "Se déconnecter du monde à travers la lecture.",
+      "imageUrl": "/uploads/6dc91b65-2504-48f7-aabb-881431d1d536.jpg",
+      "imagePublicId": "local:6dc91b65-2504-48f7-aabb-881431d1d536.jpg",
+      "position": 3,
+      "createdAt": "2026-11-15T12:17:18.253Z",
+      "updatedAt": "2026-11-15T12:17:18.253Z"
     }
   ]
 }

@@ -10,12 +10,9 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const target = join(resolve(dirname(fileURLToPath(import.meta.url)), ".."), "public", "portfolio.json");
-const base = process.env.PORTFOLIO_API_URL?.replace(/\/+$/, "");
-
-if (!base) {
-  console.log("PORTFOLIO_API_URL absente : contenu local conservé.");
-  process.exit(0);
-}
+// l'URL de l'API est publique : la versionner évite d'avoir à la déclarer
+// dans les réglages de l'hébergeur
+const base = (process.env.PORTFOLIO_API_URL ?? "https://folio-api-44gd.onrender.com").replace(/\/+$/, "");
 
 // l'API dort sur son offre gratuite : son réveil peut demander une minute
 const attempts = 6;
