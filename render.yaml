@@ -3,12 +3,17 @@ services:
     name: folio-api
     runtime: node
     plan: free
+    # même région que la base Neon (US East) : l'API fait plusieurs requêtes SQL
+    # par appel, la latence entre les deux compte plus que la distance au client
+    region: virginia
     buildCommand: npm install && npm run db:setup
     startCommand: npm run backend:start
     healthCheckPath: /health
     envVars:
       - key: NODE_VERSION
         value: 22.13.0
+      - key: NODE_ENV
+        value: production
       - key: DATABASE_URL
         sync: false
       - key: DIRECT_URL
@@ -19,13 +24,13 @@ services:
         sync: false
       - key: SESSION_SECRET
         sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: VERCEL_DEPLOY_HOOK
+        sync: false
       - key: CLOUDINARY_CLOUD_NAME
         sync: false
       - key: CLOUDINARY_API_KEY
         sync: false
       - key: CLOUDINARY_API_SECRET
-        sync: false
-      - key: FRONTEND_URL
-        sync: false
-      - key: VERCEL_DEPLOY_HOOK
         sync: false
