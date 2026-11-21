@@ -66,8 +66,11 @@ const app = express();
 const port = Number(process.env.PORT ?? 4000);
 const sessionCookie = "folio_admin";
 const sessionAgeSeconds = 60 * 60 * 24 * 7;
+// L'hébergeur attribue plusieurs domaines au même déploiement : FRONTEND_URL
+// accepte donc une liste séparée par des virgules, sans quoi l'administration
+// ne fonctionnerait que depuis l'un d'eux.
 const allowedOrigins = new Set([
-  process.env.FRONTEND_URL,
+  ...(process.env.FRONTEND_URL ?? "").split(",").map((origin) => origin.trim().replace(/\/+$/, "")),
   "http://localhost:5173",
   "http://127.0.0.1:5173",
 ].filter(Boolean));
