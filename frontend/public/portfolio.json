@@ -7,9 +7,9 @@
     "email": "randrianantenainastephano1611@gmail.com",
     "phone": "0341078173",
     "githubUrl": "https://github.com/Stephano117",
-    "bio": "Devellopeur et admin system confirmé. Je conçois et réalise des solutions numériques performantes et utiles. Passionné par ce que je fait, je m’engage à allier rigueur technique et apprentissage continu. Ma philosophie : aimer ce que l’on fait pour toujours viser la satisfaction",
-    "cvUrl": "/uploads/3e7d7105-9ef6-4f3b-8bf7-b8caf29828e9.pdf",
-    "cvFileName": "CV fullstack 3.0.pdf",
+    "bio": "Devellopeur et admin system confirmé. Je conçois et réalise des solutions numériques performantes et utiles. Passionné par ce que je fait, je m’engage à allier rigueur technique et apprentissage continu. Ma philosophie : aimer ce que l’on fait pour toujours viser la satisfaction.",
+    "cvUrl": "https://res.cloudinary.com/vzdtnax0/raw/upload/v1795242178/folio/cv/pcn47yaie8fdbx7draa8.pdf",
+    "cvFileName": "CVsido3.1.pdf",
     "avatarUrl": "/uploads/4a1b1409-46f9-49f1-b183-2ec97f16081d.jpg",
     "avatarPublicId": "local:4a1b1409-46f9-49f1-b183-2ec97f16081d.jpg",
     "contactMessage": "Disponible pour échanger sur vos projets et opportunités.",
@@ -20,7 +20,7 @@
     "accentColor": "#48a9e5",
     "backgroundColor": "#edf7fd",
     "createdAt": "2026-11-20T09:06:15.890Z",
-    "updatedAt": "2026-11-17T17:10:29.291Z"
+    "updatedAt": "2026-11-21T06:23:07.225Z"
   },
   "skills": [
     {
@@ -206,6 +206,20 @@
       "position": 1,
       "createdAt": "2026-11-20T09:06:17.246Z",
       "updatedAt": "2026-11-15T09:34:56.306Z"
+    },
+    {
+      "id": "cmwq0axmd000028fb153zxjw6",
+      "title": "Système de partage et de transfert de fichiers de la Région Haute Matsiatra.",
+      "description": "Mettre en place une plateforme centralisée de transfert, de partage et de stockage de fichiers dans un serveur local LAN, offrant aux employés une alternative plus fiable, sécurisée et pratique aux clés USB et à l'envoi de fichiers via WhatsApp. Chaque employé pourra facilement transférer, consulter, télécharger et sauvegarder des fichiers, tout en facilitant leur accès et leur partage au sein de l'entreprise.",
+      "imageUrl": "https://res.cloudinary.com/vzdtnax0/image/upload/v1795241157/folio/imugpryfc2qxhoojiakd.png",
+      "imagePublicId": "folio/imugpryfc2qxhoojiakd",
+      "link": "https://github.com/Stephano117/STPF-",
+      "tags": [
+        "Développement web"
+      ],
+      "position": 2,
+      "createdAt": "2026-11-21T06:07:55.573Z",
+      "updatedAt": "2026-11-21T06:11:40.373Z"
     }
   ],
   "experiences": [

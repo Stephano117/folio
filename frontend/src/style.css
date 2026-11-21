@@ -351,20 +351,6 @@ button {
   color: var(--muted);
 }
 
-.hero-meta .hero-cv-link {
-  padding: 9px 13px;
-  border: 1px solid var(--accent);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.72);
-  color: var(--ink);
-  transition: background 160ms ease, color 160ms ease;
-}
-
-.hero-meta .hero-cv-link:hover {
-  background: var(--accent);
-  color: white;
-}
-
 .experience-section,
 .education-section,
 .hobbies-section {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowDown, ArrowUpRight, Download, Github, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Github, Mail, MapPin, Phone } from "lucide-react";
 import Admin from "./admin.jsx";
 
 function contactMailto(profile) {
@@ -125,11 +125,6 @@ function Portfolio() {
             {profile.email && <a href={contactMailto(profile)}>Écris-moi <ArrowUpRight size={14} /></a>}
             {profile.phone && <a className="phone-link" href={`tel:${profile.phone.replace(/[^\d+]/g, "")}`}><Phone size={14} />{profile.phone}</a>}
             {profile.githubUrl && <a className="github-link" href={profile.githubUrl} target="_blank" rel="noreferrer"><Github size={15} /> GitHub</a>}
-            {profile.cvUrl && (
-              <a className="hero-cv-link" href={profile.cvUrl} download={profile.cvFileName || "CV.pdf"}>
-                <Download size={15} /> Télécharger mon CV
-              </a>
-            )}
           </div>
           <a className="scroll-cue" href="#projets"><ArrowDown size={16} /> Découvrir mon travail</a>
         </div>
@@ -301,7 +296,6 @@ function Portfolio() {
             {profile.location && <span className="footer-location"><MapPin size={17} />{profile.location}</span>}
             {profile.email && <a className="footer-email" href={contactMailto(profile)}><Mail size={17} />{profile.email}<ArrowUpRight size={18} /></a>}
             {profile.phone && <a className="footer-email" href={`tel:${profile.phone.replace(/[^\d+]/g, "")}`}><Phone size={17} />{profile.phone}<ArrowUpRight size={18} /></a>}
-            {profile.cvUrl && <a className="footer-email" href={profile.cvUrl} download={profile.cvFileName || "CV.pdf"}><Download size={17} />Télécharger mon CV<ArrowUpRight size={18} /></a>}
             {profile.githubUrl && <a className="footer-email" href={profile.githubUrl} target="_blank" rel="noreferrer"><Github size={17} />Profil GitHub<ArrowUpRight size={18} /></a>}
           </div>
           <div className="footer-bottom">
